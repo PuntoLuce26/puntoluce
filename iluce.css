@@ -1,0 +1,36 @@
+/* iLuce — design Avorio Editoriale, coerente con la famiglia PuntoLuce. */
+:root { --paper:#FDF6E3; --ink:#0F1E3A; --gold:#D4A84B; --champagne:#C9A86A; --line:#E3DDCF; --muted:#6B6557; --white:#FFFFFF; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif; background: var(--paper); color: var(--ink); line-height: 1.55; }
+.container { width: 100%; max-width: 46rem; margin-inline: auto; padding-inline: 1.25rem; }
+.site-header { border-bottom: 1px solid var(--line); background: var(--paper); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: .9rem; flex-wrap: wrap; }
+.brand { text-decoration: none; }
+.brand-nome { font-size: 1.5rem; font-weight: 700; letter-spacing: .01em; color: var(--ink); }
+.oro { color: var(--gold); }
+.nav-list { display: flex; gap: 1.2rem; list-style: none; margin: 0; padding: 0; }
+.nav-list a { color: var(--muted); text-decoration: none; font-size: .95rem; }
+.nav-list a:hover { color: var(--gold); }
+.hero { text-align: center; padding: 3rem 0 2rem; }
+.hero h1 { font-size: clamp(1.8rem, 1.4rem + 2vw, 2.2rem); margin-bottom: .5rem; }
+.tagline { font-size: 1.15rem; color: var(--muted); max-width: 36rem; margin-inline: auto; }
+.tagline strong { color: var(--ink); font-weight: 600; }
+h2 { font-size: 1.35rem; margin-top: 2.4rem; }
+.lead { color: var(--muted); }
+.small { font-size: .85rem; color: var(--muted); }
+.chat-box { border: 1px solid var(--line); border-radius: 8px; background: var(--white); overflow: hidden; }
+.chat-log { list-style: none; margin: 0; padding: 1rem; min-height: 10rem; max-height: 22rem; overflow-y: auto; }
+.chat-log li { margin-bottom: .8rem; padding: .6rem .9rem; border-radius: 8px; background: var(--paper); max-width: 85%; }
+.chat-log li.utente { background: rgba(201,168,106,.18); margin-left: auto; }
+.chat-form { display: flex; gap: .5rem; padding: .7rem; border-top: 1px solid var(--line); }
+.chat-form input { flex: 1; padding: .65rem .9rem; border: 1px solid var(--line); border-radius: 999px; font: inherit; }
+.form-narrow { max-width: 34rem; }
+.form-narrow label { display: block; margin-bottom: .9rem; font-weight: 600; }
+.form-narrow input, .form-narrow textarea { width: 100%; padding: .65rem .9rem; border: 1px solid var(--line); border-radius: 6px; font: inherit; margin-top: .3rem; }
+.actions { display: flex; gap: .5rem; margin-top: 1rem; }
+.btn { border: 1px solid var(--ink); background: var(--ink); color: var(--white); padding: .65rem 1.2rem; border-radius: 999px; font: inherit; font-weight: 600; cursor: pointer; }
+.btn:hover { background: var(--gold); border-color: var(--gold); }
+.site-footer { border-top: 1px solid var(--line); margin-top: 3rem; padding: 1.5rem 0; color: var(--muted); font-size: .9rem; text-align: center; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; clip: rect(0 0 0 0); overflow: hidden; }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { left: 1rem; top: 1rem; z-index: 100; background: var(--white); padding: .5rem 1rem; }

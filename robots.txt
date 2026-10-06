@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://puntoluce26.com/iluce/sitemap-puntoluce.xml
