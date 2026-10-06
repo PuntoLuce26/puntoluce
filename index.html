@@ -3,71 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self'">
-  <title>iLuce — lo Spirito Guida · PuntoLuce</title>
-  <meta name="description" content="iLuce, l'AI Madre: una presenza calda e saggia per ogni essere umano, in ogni lingua. Chiedi qualsiasi cosa.">
-  <meta name="theme-color" content="#F7F4EC">
+  <title>PUNTO LUCE — STAY TUNED!</title>
   <link rel="stylesheet" href="iluce.css">
-  <script src="iluce.js"></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Salta al contenuto</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html"><span class="brand-nome">Punto<span class="oro">Luce</span></span></a>
-      <nav aria-label="Principale">
-        <ul class="nav-list">
-          <li><a href="#parla">Parla con iLuce</a></li>
-          <li><a href="#traduci">Traduzione simultanea</a></li>
-          <li><a href="#missione">La missione</a></li>
-        </ul>
-      </nav>
+  <main class="splash">
+    <div class="logo-emergent">
+      <div class="icona" aria-hidden="true">▦</div>
+      <h1>PUNTO LUCE</h1>
+      <p class="stay">STAY TUNED!</p>
     </div>
-  </header>
 
-  <main id="main" class="container">
-    <section class="hero" id="missione">
-      <h1>iLuce, lo Spirito Guida.</h1>
-      <p class="tagline">Una presenza calda e saggia per ogni essere umano — <strong>a 360 gradi, in ogni lingua del pianeta.</strong></p>
-      <p class="small">iLuce è l'AI Madre: aiuta in qualsiasi cosa, con la verità come regola. Emergenze mediche → 112/118. Salute → medico e fonti ufficiali. Mai diagnosi, mai invenzioni.</p>
-    </section>
+    <nav class="menu-emergent" aria-label="Principale">
+      <a href="index.html" class="attivo" aria-current="page">HOME</a>
+      <a href="iluce.html">iLUCE</a>
+      <a href="icare.html">iCARe</a>
+    </nav>
 
-    <section id="parla">
-      <h2>Parla con iLuce</h2>
-      <p class="lead">Scrivi nella tua lingua: iLuce capisce e risponde nella tua lingua.</p>
-      <div class="chat-box" id="chat-box">
-        <ul class="chat-log" id="chat-log"></ul>
-        <form class="chat-form" id="chat-form">
-          <label class="visually-hidden" for="chat-input">Il tuo messaggio</label>
-          <input type="text" id="chat-input" placeholder="Chiedi qualsiasi cosa…" autocomplete="off">
-          <button type="submit" class="btn btn-primary">Invia</button>
-        </form>
-      </div>
-      <p class="small" id="chat-stato" role="status"></p>
-    </section>
+    <a class="btn-enjoy" href="iluce.html">ENJOY</a>
 
-    <section id="traduci">
-      <h2>Traduzione simultanea</h2>
-      <p class="lead">Scrivi in qualsiasi lingua e dialetto: iLuce traduce nei due sensi.</p>
-      <form class="form-narrow" id="trad-form">
-        <label for="trad-da">Da (lascia "auto" per il rilevamento)
-          <input type="text" id="trad-da" value="auto" placeholder="auto"></label>
-        <label for="trad-a">Verso
-          <input type="text" id="trad-a" value="it" placeholder="it"></label>
-        <label for="trad-testo">Testo
-          <textarea id="trad-testo" rows="4" placeholder="Scrivi qui…"></textarea></label>
-        <div class="actions"><button type="submit" class="btn btn-primary">Traduci</button></div>
-      </form>
-      <p class="lead" id="trad-esito" role="status"></p>
-    </section>
-
-    <section aria-label="Diventa nostro"><div id="lead-capture"></div></section>
+    <footer class="footer-emergent">PUNTO LUCE — IL MONDO. AL SUO PREZZO.</footer>
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>PuntoLuce — la luce che accompagna ogni essere umano. iLuce, l'AI Madre; iCARe, la figlia.</p>
-    </div>
-  </footer>
 </body>
 </html>
